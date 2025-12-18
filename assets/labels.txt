@@ -1,0 +1,10 @@
+0 Toyota
+1 Nissan
+2 Honda
+3 Mitsubishi
+4 Ford
+5 Mazda
+6 Hyundai
+7 Chevrolet
+8 Kia
+9 Isuzu
