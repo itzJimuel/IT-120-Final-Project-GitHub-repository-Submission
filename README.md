@@ -48,7 +48,5 @@ If given more development time, the following features are planned for future up
 ## 👤 Author
 
 **Jimuel Amuto**
+https://www.youtube.com/watch?v=GtmuSy8X12s&t=7s
 
----
-
-*Developed as a project for Flutter App Classification.*
