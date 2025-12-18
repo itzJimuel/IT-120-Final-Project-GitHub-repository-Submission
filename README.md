@@ -1,6 +1,3 @@
-This README provides a comprehensive overview of your Flutter and Firebase image classification project, based on the details from your video demonstration.
-
----
 
 # 🚗 Flutter Image Classification App
 
@@ -48,7 +45,8 @@ If given more development time, the following features are planned for future up
 ## 👤 Author
 
 **Jimuel Amuto**
-Full Video link below:
+Full Video here's the link:
 https://www.youtube.com/watch?v=GtmuSy8X12s&t=7s
+
 
 
