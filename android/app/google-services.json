@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "631367205276",
+    "firebase_url": "https://amuto-carbrandslogo-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "amuto-carbrandslogo",
+    "storage_bucket": "amuto-carbrandslogo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631367205276:android:5f8bf8549980f14a094859",
+        "android_client_info": {
+          "package_name": "com.example.amuto_carbrandlogos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDMCqGXIxFFh3gcQIstbMkA1Qw9dl5Zvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
