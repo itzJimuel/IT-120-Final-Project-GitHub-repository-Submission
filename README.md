@@ -1,72 +1,55 @@
-Image Classifier App - IT-120 Final Project
-A mobile application built with Flutter and Firebase that leverages Machine Learning to identify and classify images in real-time. This project was developed as the final requirement for the IT-120 course.
+🚗 Flutter Image Classification App
+A mobile application built with Flutter and Firebase that classifies common car brands found in the Philippines. The app leverages on-device machine learning to provide real-time, privacy-focused image recognition.
 
 📌 Project Overview
-The app allows users to either capture a photo using the device camera or select one from the gallery. Once an image is provided, the integrated Firebase ML Kit (or TFLite model) processes the visual data and provides a classification label along with a confidence score.
+This project is an image classifier designed to identify 10 different classes of car brands (including Toyota, Nissan, Honda, Mitsubishi, and others). It allows users to capture images via the camera or select them from the gallery to receive instant classification results with a high degree of accuracy.
 
-Key Features
-Real-time Classification: Quick and accurate image labeling.
+🚀 Key Features
+Multi-Class Classification: Specifically trained to recognize the most popular car brands in the Philippine market [00:21].
 
-Dual Image Source: Support for both Camera and Gallery uploads.
+Dual Input Modes: Supports both real-time Camera capture and Gallery selection for image analysis [01:29].
 
-Cloud/On-Device Integration: Powered by Firebase for robust backend support.
+High Accuracy: Demonstrated performance reaching up to 99.5% confidence in classification tests [01:13].
 
-User-Friendly UI: Clean and intuitive interface built with Flutter.
+On-Device Inference: Uses local model processing instead of cloud-based APIs to ensure:
 
-📺 Video Demonstration
-Watch the full walkthrough of the project and how the app functions in the video below:
+Data Privacy: Images are processed locally and never uploaded to a server [03:39].
 
-Click the image above or here to watch.
+Low Latency: Instant results regardless of network connectivity [03:49].
 
-🛠 Tech Stack
+Automated Logging: Classification results, including labels, confidence scores, and system-generated timestamps, are accurately recorded in the database through a centralized service layer [02:40].
+
+🛠️ Tech Stack
 Frontend: Flutter (Dart)
 
-Backend/ML: Firebase (ML Kit / Firebase Core)
+Backend/Database: Firebase (used for reliable auditing and data storage [03:03])
 
-Plugins Used:
+Machine Learning: On-device ML Model inference
 
-image_picker (for camera/gallery access)
+📋 System Design & Reliability
+To ensure the integrity of the classification logs, the app implements several safeguards:
 
-firebase_ml_vision or google_ml_kit
+Direct Recording: Results are pulled directly from the model to the database to prevent manual modification [02:40].
 
-firebase_core
+Validation: Data is validated for completeness and expected ranges before being saved [03:03].
 
-🚀 Getting Started
-Prerequisites
-Flutter SDK installed
+Schema Enforcement: A centralized service layer handles database writes to prevent duplicates and maintain a consistent schema [03:15].
 
-Android Studio / VS Code
+🔮 Future Enhancements
+If given more development time, the following features are planned for future updates [04:09]:
 
-A Firebase Project set up in the Firebase Console
+Model Retraining: Optimizing accuracy using a wider variety of real-world data.
 
-Installation & Setup
-Clone the repository:
+Offline Synchronization: Adding background sync capabilities for offline detection logs.
 
-Bash
+Batch Processing: Support for classifying multiple images simultaneously.
 
-git clone https://github.com/itzJimuel/IT-120-Final-Project-GitHub-repository-Submission.git
-Install dependencies:
+Analytics Dashboard: A monitoring interface to track model performance and error rates.
 
-Bash
+👤 Author
+Jimuel Amuto
 
-flutter pub get
-Firebase Configuration:
+Developed as a project for Flutter App Classification.
 
-Add your google-services.json (for Android) to the android/app/ directory.
-
-Add your GoogleService-Info.plist (for iOS) to the ios/Runner/ directory.
-
-Run the app:
-
-Bash
-
-flutter run
-🧑‍💻 Author
-Jimuel
-
-IT-120 Student
-
-GitHub Profile
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Flutter App Classification Project 
+JIMUEL AMUTO · 3 views
